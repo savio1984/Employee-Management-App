@@ -1,0 +1,28 @@
+{
+  "name": "employee-management-app",
+  "version": "1.0.0",
+  "description": "An enterprise employee management system with CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savio1984/Employee-Management-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/savio1984/Employee-Management-App/issues"
+  },
+  "homepage": "https://github.com/savio1984/Employee-Management-App#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7"
+  }
+}
